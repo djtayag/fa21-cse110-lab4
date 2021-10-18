@@ -1,0 +1,2 @@
+1. num1 and num2 are still of string type when they are added, so the result appears as a concatenation of numbers rather than the sum: i.e. if the first number was 1 and the second was 2, the reuslt would come out as 12 when it should be 3
+2. To fix the issue, I would simply parse num1 and num2 as integers in the calculateSum() function... See fix-it.png.
